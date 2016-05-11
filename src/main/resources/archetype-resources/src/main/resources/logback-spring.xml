@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration>
+  <include resource="org/springframework/boot/logging/logback/base.xml" />
+
+  <springProfile name="default">
+    <logger name="${groupId}.${artifactId}" level="DEBUG" />
+  </springProfile>
+
+  <springProfile name="dev">
+    <logger name="${groupId}.${artifactId}" level="DEBUG" />
+  </springProfile>
+
+  <springProfile name="stag">
+    <logger name="${groupId}.${artifactId}" level="INFO" />
+  </springProfile>
+
+  <springProfile name="prod">
+    <logger name="${groupId}.${artifactId}" level="INFO" />
+  </springProfile>
+
+</configuration>
