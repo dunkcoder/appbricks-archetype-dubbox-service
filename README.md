@@ -1,4 +1,5 @@
-# Grand Design Service Starter
+# appbricks-archetype-service
+a maven archetype for appbricks service
 
 ## generate project from archetype
 
