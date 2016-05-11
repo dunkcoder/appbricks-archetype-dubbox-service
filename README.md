@@ -6,20 +6,20 @@ a maven archetype for appbricks service
 with interactive mode
 
 ```
-mvn archetype:generate                                  \
-  -DarchetypeGroupId=io.appbricks                       \
-  -DarchetypeArtifactId=appbricks-archetype-service     \
+mvn archetype:generate                                      \
+  -DarchetypeGroupId=io.appbricks                           \
+  -DarchetypeArtifactId=appbricks-archetype-dubbox-service  \
   -DarchetypeVersion=1.0-SNAPSHOT
 ```
 
 without interactive mode
 
 ```
-mvn archetype:generate                                  \
-  -DarchetypeGroupId=io.appbricks                       \
-  -DarchetypeArtifactId=appbricks-archetype-service     \
-  -DarchetypeVersion=1.0-SNAPSHOT                       \
-  -DgroupId=com.xxx.yyy                                 \
-  -DartifactId=zzz                                      \
+mvn archetype:generate                                      \
+  -DarchetypeGroupId=io.appbricks                           \
+  -DarchetypeArtifactId=appbricks-archetype-dubbox-service  \
+  -DarchetypeVersion=1.0-SNAPSHOT                           \
+  -DgroupId=com.xxx.yyy                                     \
+  -DartifactId=zzz                                          \
   -DinteractiveMode=false
 ```

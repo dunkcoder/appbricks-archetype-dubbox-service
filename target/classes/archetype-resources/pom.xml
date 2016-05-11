@@ -6,9 +6,9 @@
   <groupId>${groupId}</groupId>
   <artifactId>${artifactId}</artifactId>
   <packaging>jar</packaging>
-  <version>1.0-SNAPSHOT</version>
+  <version>${version}</version>
 
-  <name>appbricks service</name>
+  <name>appbricks dubbox service</name>
 
   <parent>
     <groupId>org.springframework.boot</groupId>
