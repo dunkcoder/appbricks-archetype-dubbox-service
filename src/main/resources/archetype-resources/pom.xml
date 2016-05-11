@@ -8,7 +8,7 @@
   <packaging>jar</packaging>
   <version>1.0-SNAPSHOT</version>
 
-  <name>GrandDesign Service Starter</name>
+  <name>appbricks service</name>
 
   <parent>
     <groupId>org.springframework.boot</groupId>
