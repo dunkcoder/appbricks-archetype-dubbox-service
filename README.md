@@ -7,8 +7,8 @@ with interactive mode
 
 ```
 mvn archetype:generate                                  \
-  -DarchetypeGroupId=com.foreveross.grand-design        \
-  -DarchetypeArtifactId=service-quickstart              \
+  -DarchetypeGroupId=io.appbricks                       \
+  -DarchetypeArtifactId=appbricks-archetype-service     \
   -DarchetypeVersion=1.0-SNAPSHOT
 ```
 
@@ -16,8 +16,8 @@ without interactive mode
 
 ```
 mvn archetype:generate                                  \
-  -DarchetypeGroupId=com.foreveross.grand-design        \
-  -DarchetypeArtifactId=service-quickstart              \
+  -DarchetypeGroupId=io.appbricks                       \
+  -DarchetypeArtifactId=appbricks-archetype-service     \
   -DarchetypeVersion=1.0-SNAPSHOT                       \
   -DgroupId=com.xxx.yyy                                 \
   -DartifactId=zzz                                      \
