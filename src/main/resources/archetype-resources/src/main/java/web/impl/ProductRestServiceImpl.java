@@ -1,12 +1,14 @@
-package ${groupId}.${artifactId}.web;
+package ${package}.web.impl;
 
 import com.alibaba.dubbo.rpc.protocol.rest.support.ContentType;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import ${groupId}.${artifactId}.domain.Product;
-import ${groupId}.${artifactId}.repository.ProductRepository;
+import ${package}.domain.Product;
+import ${package}.repository.ProductRepository;
+import ${package}.web.Payload;
+import ${package}.web.ProductRestService;
 
 import javax.ws.rs.*;
 

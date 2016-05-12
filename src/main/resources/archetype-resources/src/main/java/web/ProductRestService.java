@@ -1,7 +1,6 @@
-package ${groupId}.${artifactId}.web;
+package ${package}.web;
 
-import ${groupId}.${artifactId}.domain.Product;
-
+import ${package}.domain.Product;
 
 public interface ProductRestService {
 

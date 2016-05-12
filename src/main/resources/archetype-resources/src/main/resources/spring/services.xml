@@ -7,6 +7,6 @@
 
 	<dubbo:protocol name="rest" port="8080" contextpath="/" server="servlet" />
 
-	<dubbo:service interface="${groupId}.${artifactId}.web.ProductRestService" ref="productRestService" protocol="rest" connections="200" validation="true" group="xmlConfig"/>
+	<dubbo:service interface="${package}.web.ProductRestService" ref="productRestService" protocol="rest" connections="200" validation="true" group="xmlConfig"/>
 
 </beans>

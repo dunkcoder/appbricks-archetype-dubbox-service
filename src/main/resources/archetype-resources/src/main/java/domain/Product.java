@@ -1,4 +1,4 @@
-package ${groupId}.${artifactId}.domain;
+package ${package}.domain;
 
 import javax.persistence.*;
 import java.io.Serializable;
