@@ -165,9 +165,9 @@
     </dependency>
   </dependencies>
 
-  <!-- spring test 打包胖jar 插件 -->
   <build>
     <plugins>
+      <!-- spring test 打包胖jar 插件 -->
       <plugin>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-maven-plugin</artifactId>
@@ -196,4 +196,43 @@
     </plugins>
   </build>
 
+  <repositories>
+    <repository>
+      <id>appbricks-nexus</id>
+      <name>Appbricks Nexus</name>
+      <url>http://nexus.appbricks.io:8081/repository/maven-public/</url>
+      <releases>
+        <enabled>true</enabled>
+      </releases>
+      <snapshots>
+        <enabled>true</enabled>
+      </snapshots>
+    </repository>
+  </repositories>
+  <pluginRepositories>
+    <pluginRepository>
+      <id>nexus</id>
+      <name>nexus</name>
+      <url>http://nexus.appbricks.io:8081/repository/maven-public/</url>
+      <releases>
+        <enabled>true</enabled>
+      </releases>
+      <snapshots>
+        <enabled>true</enabled>
+      </snapshots>
+    </pluginRepository>
+  </pluginRepositories>
+
+  <distributionManagement>
+    <repository>
+      <id>appbricks-release</id>
+      <name>User Project Release</name>
+      <url>http://nexus.appbricks.io:8081/repository/maven-releases/</url>
+    </repository>
+    <snapshotRepository>
+      <id>appbricks-snapshots</id>
+      <name>User Project SNAPSHOTS</name>
+      <url>http://nexus.appbricks.io:8081/repository/maven-snapshots/</url>
+    </snapshotRepository>
+  </distributionManagement>
 </project>
