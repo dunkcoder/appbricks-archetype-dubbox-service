@@ -1,4 +1,4 @@
-package ${package};
+package ${groupId}.${artifactId};
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -7,9 +7,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class Application {
 
   public static void main(String[] args) {
-        // 结合starter-dubbox服务
-        SpringApplication application = new SpringApplication(Application.class, "classpath*:/spring/*.xml");
-        application.setWebEnvironment(true);
-        application.run(args);
-    }
+      SpringApplication application = new SpringApplication(Application.class, "classpath*:/spring/*.xml");
+      application.setWebEnvironment(true);
+      application.run(args);
+  }
 }
