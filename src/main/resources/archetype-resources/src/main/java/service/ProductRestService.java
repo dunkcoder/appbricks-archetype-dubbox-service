@@ -1,4 +1,4 @@
-package ${package}.web;
+package ${package}.service;
 
 import ${package}.domain.Product;
 
