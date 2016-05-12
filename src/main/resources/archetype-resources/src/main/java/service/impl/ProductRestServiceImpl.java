@@ -7,8 +7,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import ${package}.domain.Product;
 import ${package}.repository.ProductRepository;
-import ${package}.web.Payload;
-import ${package}.web.ProductRestService;
+import ${package}.service.Payload;
+import ${package}.service.ProductRestService;
 
 import javax.ws.rs.*;
 
