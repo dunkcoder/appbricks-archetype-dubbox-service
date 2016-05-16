@@ -4,6 +4,19 @@
 
   <groupId>io.appbricks</groupId>
   <artifactId>appbricks-archetype-dubbox-service</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0</version>
   <packaging>jar</packaging>
+
+  <distributionManagement>
+    <repository>
+      <id>central-release</id>
+      <name>User Project Release</name>
+      <url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url>
+    </repository>
+    <snapshotRepository>
+      <id>central-snapshots</id>
+      <name>User Project SNAPSHOTS</name>
+      <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+    </snapshotRepository>
+  </distributionManagement>
 </project>
