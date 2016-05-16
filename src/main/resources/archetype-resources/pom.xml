@@ -92,17 +92,17 @@
       <artifactId>hibernate-validator</artifactId>
       <version>5.2.4.Final</version>
     </dependency>
-    <!-- 如果http传递要使用json序列化 -->
+    <!-- 如果resteasy传递要使用json序列化 -->
     <dependency>
       <groupId>org.jboss.resteasy</groupId>
       <artifactId>resteasy-jackson-provider</artifactId>
-      <version>3.0.7.Final</version>
+      <version>3.0.15.Final</version>
     </dependency>
-    <!-- 如果http传递要使用xml序列化 -->
+    <!-- 如果resteasy传递要使用xml序列化 -->
     <dependency>
       <groupId>org.jboss.resteasy</groupId>
       <artifactId>resteasy-jaxb-provider</artifactId>
-      <version>3.0.7.Final</version>
+      <version>3.0.16.Final</version>
     </dependency>
     <!-- zookeeper -->
     <dependency>
