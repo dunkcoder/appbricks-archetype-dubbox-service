@@ -95,3 +95,8 @@ deploy artifact:
 ```
 mvn deploy
 ```
+
+## reference
+
+* [Introduction to Archetypes](https://maven.apache.org/guides/introduction/introduction-to-archetypes.html)
+* [Guide to Creating Archetypes](https://maven.apache.org/guides/mini/guide-creating-archetypes.html)
