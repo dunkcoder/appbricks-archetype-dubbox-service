@@ -78,13 +78,13 @@ setup the login and password required to authenticate to this server in **~/.m2/
   <servers>
     <server>
       <id>appbricks-snapshots</id>
-      <username>admin</username>
-      <password>admin123</password>
+      <username>username</username>
+      <password>password</password>
     </server>
     <server>
       <id>appbricks-release</id>
-      <username>admin</username>
-      <password>admin123</password>
+      <username>username</username>
+      <password>password</password>
     </server>
   </servers>
 </settings>
