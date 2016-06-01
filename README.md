@@ -9,11 +9,11 @@ with interactive mode
 mvn archetype:generate                                      \
   -DarchetypeGroupId=io.appbricks                           \
   -DarchetypeArtifactId=appbricks-archetype-dubbox-service  \
-  -DarchetypeVersion=1.0-SNAPSHOT
+  -DarchetypeVersion=1.0
 ```
 
 ```
-mvn archetype:generate -DarchetypeGroupId=io.appbricks -DarchetypeArtifactId=appbricks-archetype-dubbox-service -DarchetypeVersion=1.0-SNAPSHOT
+mvn archetype:generate -DarchetypeGroupId=io.appbricks -DarchetypeArtifactId=appbricks-archetype-dubbox-service -DarchetypeVersion=1.0
 ```
 
 you will required to input groupId, artifactId for your new project.
@@ -25,9 +25,9 @@ without interactive mode
 mvn archetype:generate                                      \
   -DarchetypeGroupId=io.appbricks                           \
   -DarchetypeArtifactId=appbricks-archetype-dubbox-service  \
-  -DarchetypeVersion=1.0-SNAPSHOT                           \
-  -DgroupId=x.y                                     \
-  -DartifactId=a                                          \
+  -DarchetypeVersion=1.0                                    \
+  -DgroupId=x.y                                             \
+  -DartifactId=a                                            \
   -DarchetypeCatalog=local
 ```
 
